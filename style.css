@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+}
+.heading {
+    background-color: rgb(211, 245, 245);
+    text-align: center;
+}
+textarea {
+    height: 50vh;
+    background-color: azure;
+}
+.result {
+    background-color: rgb(250, 186, 175);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 40vh;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
