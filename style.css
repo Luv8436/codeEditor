@@ -1,23 +1,23 @@
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 10px;
-}
-.heading {
-    background-color: rgb(211, 245, 245);
+body {
     text-align: center;
-}
-textarea {
-    height: 50vh;
-    background-color: azure;
-}
-.result {
-    background-color: rgb(250, 186, 175);
-    grid-column-start: 1;
-    grid-column-end: 4;
-    height: 40vh;
-}
-iframe{
-    height: 100%;
+  }
+  
+  textarea {
+    width: 32%;
+    float: top;
+    min-height: 250px;
+    overflow: scroll;
+    margin: auto;
+    display: inline-block;
+    background: #f4f4f9;
+    outline: none;
+    font-family: Courier, sans-serif;
+    font-size: 14px;
+  }
+  
+  iframe {
+    bottom: 0;
+    position: relative;
     width: 100%;
-}
+    height: 35em;
+  }
