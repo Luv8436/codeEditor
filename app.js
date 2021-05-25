@@ -31,7 +31,7 @@ for(let i=0;i<btn.length;i++){
                 event.target.style.backgroundColor = 'rgb(218, 209, 209)';
             }else{
                 all[j].style.display = 'none';
-                event.target.style.backgroundColor = 'red';
+                event.target.style.backgroundColor = 'rgb(243, 221, 165)';
             }
         }
     }
