@@ -18,3 +18,21 @@ document.onkeypress = function(){
     <style>${css} </style>
     `;
 }
+let btn = document.querySelectorAll('.btn');
+for(let i=0;i<btn.length;i++){
+    btn[i].onclick = function(event){
+        
+        let elem = event.target.innerText.toLowerCase();
+        let all = document.querySelectorAll(`.${elem}`);
+        for(let j=0;j<all.length;j++){
+            console.log(all[i]);
+            if(all[j].style.display === 'none'){
+                all[j].style.display = '';
+                event.target.style.backgroundColor = 'rgb(218, 209, 209)';
+            }else{
+                all[j].style.display = 'none';
+                event.target.style.backgroundColor = 'red';
+            }
+        }
+    }
+}
